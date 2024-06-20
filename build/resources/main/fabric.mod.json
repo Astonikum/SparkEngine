@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "spark_engine",
+	"version": "0.0.1",
+	"name": "Spark Engine",
+	"description": "Engine for creating story-telling modpacks. :)",
+	"authors": [
+		"Astonikum x Card Prod."
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/spark_engine/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "net.astonikum.sparkengine.SparkEngine",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "net.astonikum.sparkengine.SparkEngineClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"spark_engine.mixins.json",
+		{
+			"config": "spark_engine.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
