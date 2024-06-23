@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "spark_engine",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"name": "Spark Engine",
 	"description": "Engine for creating story-telling modpacks. :)",
 	"authors": [
@@ -40,7 +40,8 @@
 		"minecraft": "~1.19.2",
 		"java": ">=17",
 		"fabric-api": "*",
-		"fabric-language-kotlin": "*"
+		"fabric-language-kotlin": "*",
+		"mod-menu": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
