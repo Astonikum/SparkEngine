@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "spark_engine",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"name": "Spark Engine",
 	"description": "Engine for creating story-telling modpacks. :)",
 	"authors": [
