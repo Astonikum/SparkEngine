@@ -9,6 +9,7 @@ import net.minecraft.text.Text;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(OptionsScreen.class)
 public abstract class OptionsScreenMixin extends Screen {
@@ -18,7 +19,7 @@ public abstract class OptionsScreenMixin extends Screen {
     }
 
     @Inject(at = @At("RETURN"), method = "init")
-    private void addModSettingsButton() {
+    public void init(CallbackInfo ci) {
         this.addDrawableChild(new ButtonWidget(this.width / 2 - 185, this.height / 6 + 120 - 6, 20, 20, Text.translatable("options.resourcepack"), (button) -> {
             MinecraftClient.getInstance().setScreen(new ModMenuMain(this, Text.translatable("resourcePack.title")));
         }));
