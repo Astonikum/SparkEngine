@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"2": "item/spawner_npc_texture",
-		"particle": "item/spawner_npc_texture"
+		"2": "item/npc_spawner_texture",
+		"particle": "item/npc_spawner_texture"
 	},
 	"elements": [
 		{

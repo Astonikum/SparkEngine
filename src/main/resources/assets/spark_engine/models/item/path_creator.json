@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/creator_of_path_texture",
-		"particle": "item/creator_of_path_texture"
+		"0": "item/path_creator_texture",
+		"particle": "item/path_creator_texture"
 	},
 	"elements": [
 		{
