@@ -8,23 +8,23 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item ACTIVE_SCRIPTS_MONITOR = registerItem("active_scripts_monitor",
-            new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item ACTIVE_SCRIPTS_MONITOR = registerStandartItemWIthGroupSPARKENGINETAB("active_scripts_monitor",
+            new FabricItemSettings().maxCount(1));
 
-    public static final Item AREAL_TRIGGER_EDITOR = registerItem("areal_trigger_editor",
-            new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item AREAL_TRIGGER_EDITOR = registerStandartItemWIthGroupSPARKENGINETAB("areal_trigger_editor",
+            new FabricItemSettings().maxCount(1));
 
-    public static final Item NPC_SPAWNER = registerItem("npc_spawner",
-            new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item NPC_SPAWNER = registerStandartItemWIthGroupSPARKENGINETAB("npc_spawner",
+            new FabricItemSettings().maxCount(1));
 
-    public static final Item PATH_CREATOR = registerItem("path_creator",
-            new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item PATH_CREATOR = registerStandartItemWIthGroupSPARKENGINETAB("path_creator",
+            new FabricItemSettings().maxCount(1));
 
-    public static final Item UNIVERSAL_CUSTOMIZER = registerItem("universal_customizer",
-            new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item UNIVERSAL_CUSTOMIZER = registerStandartItemWIthGroupSPARKENGINETAB("universal_customizer",
+            new FabricItemSettings().maxCount(1));
 
-    private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(SparkEngine.MOD_ID, name), item);
+    private static Item registerStandartItemWIthGroupSPARKENGINETAB(String name, FabricItemSettings settings) {
+        return Registry.register(Registry.ITEM, new Identifier(SparkEngine.MOD_ID, name), new Item(settings.group(ModItemGroup.SPARK_ENGINE_TAB)));
     }
 
     public static void registerModItems() {
