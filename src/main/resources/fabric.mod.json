@@ -16,16 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			{
-				"value": "net.astonikum.sparkengine.SparkEngine",
-				"adapter": "kotlin"
-			}
+          "net.astonikum.sparkengine.SparkEngine"
 		],
 		"client": [
-			{
-				"value": "net.astonikum.sparkengine.SparkEngineClient",
-				"adapter": "kotlin"
-			}
+			"net.astonikum.spark_engine.SparkEngineClient"
 		]
 	},
 	"mixins": [
