@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.astonikum.sparkengine.SparkEngine"
+          "net.astonikum.spark_engine.SparkEngine"
 		],
 		"client": [
 			"net.astonikum.spark_engine.SparkEngineClient"

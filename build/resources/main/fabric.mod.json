@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "spark_engine",
-	"version": "0.0.6",
+	"version": "0.0.6.fix1",
 	"name": "Spark Engine",
 	"description": "Engine for creating story-telling modpacks. :)",
 	"authors": [
@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.astonikum.sparkengine.SparkEngine"
+          "net.astonikum.spark_engine.SparkEngine"
 		],
 		"client": [
 			"net.astonikum.spark_engine.SparkEngineClient"
