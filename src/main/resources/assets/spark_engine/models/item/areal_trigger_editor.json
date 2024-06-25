@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/areal_trigger_editor_texture",
-		"particle": "item/areal_trigger_editor_texture"
+		"0": "spark_engine:item/areal_trigger_editor_texture",
+		"particle": "spark_engine:item/areal_trigger_editor_texture"
 	},
 	"elements": [
 		{

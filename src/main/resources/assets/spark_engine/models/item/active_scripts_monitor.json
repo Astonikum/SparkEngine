@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "item/active_scripts_monitor_texture",
-		"particle": "item/active_scripts_monitor_texture"
+		"0": "spark_engine:item/active_scripts_monitor_texture",
+		"particle": "spark_engine:item/active_scripts_monitor_texture"
 	},
 	"elements": [
 		{

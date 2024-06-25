@@ -8,7 +8,19 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item ACTIVE_SCRIPTS_MONITOR = registerItem(String.valueOf(Text.translatable("item.spark_engine.active_scripts_monitor" )),
+    public static final Item ACTIVE_SCRIPTS_MONITOR = registerItem("active_scripts_monitor",
+            new Item(new FabricItemSettings().maxCount(1)));
+
+    public static final Item AREAL_TRIGGER_EDITOR = registerItem("areal_trigger_editor",
+            new Item(new FabricItemSettings().maxCount(1)));
+
+    public static final Item NPC_SPAWNER = registerItem("npc_spawner",
+            new Item(new FabricItemSettings().maxCount(1)));
+
+    public static final Item PATH_CREATOR = registerItem("path_creator",
+            new Item(new FabricItemSettings().maxCount(1)));
+
+    public static final Item UNIVERSAL_CUSTOMIZER = registerItem("universal_customizer",
             new Item(new FabricItemSettings().maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
