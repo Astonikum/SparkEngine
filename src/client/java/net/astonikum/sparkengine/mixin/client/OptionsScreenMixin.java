@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(OptionsScreen.class)
 public abstract class OptionsScreenMixin extends Screen {
 
-    private static final Identifier ICON_TEXTURE = new Identifier("spark_engine", "/assets/gui/settings-logo.png");
+    private static final Identifier ICON_TEXTURE = new Identifier("spark_engine", "/gui/settings-logo.png");
 
     protected OptionsScreenMixin(Text title) {
         super(title);
