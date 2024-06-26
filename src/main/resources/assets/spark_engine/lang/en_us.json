@@ -4,5 +4,6 @@
   "item.spark_engine.npc_spawner": "NPC spawner",
   "item.spark_engine.path_creator": "Path creator",
   "item.spark_engine.universal_customizer": "Universal customizer",
-  "itemGroup.spark_engine.spark_engine_tab": "Spark Engine devices"
+  "itemGroup.spark_engine.spark_engine_tab": "Spark Engine devices",
+  "gui.spark_engine.mod_settings.hub.title": "SPARK ENGINE HUB"
 }
