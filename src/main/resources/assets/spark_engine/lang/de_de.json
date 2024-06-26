@@ -1,0 +1,8 @@
+{
+  "item.spark_engine.active_scripts_monitor": "Active hitlers monitor",
+  "item.spark_engine.areal_trigger_editor": "Hitler trigger editor",
+  "item.spark_engine.npc_spawner": "Hitler spawner",
+  "item.spark_engine.path_creator": "Hitler's path creator",
+  "item.spark_engine.universal_customizer": "Hitler's customizer",
+  "itemGroup.spark_engine.spark_engine_tab": "Hitler Engine devices"
+}

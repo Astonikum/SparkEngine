@@ -1,0 +1,8 @@
+{
+  "item.spark_engine.active_scripts_monitor": "Монитор активных скриптов",
+  "item.spark_engine.areal_trigger_editor": "Редактор территориальных триггеров",
+  "item.spark_engine.npc_spawner": "Спавнер NPC",
+  "item.spark_engine.path_creator": "Создатель путей",
+  "item.spark_engine.universal_customizer": "Универсальный настройщик",
+  "itemGroup.spark_engine.spark_engine_tab": "Устройства Spark Engine"
+}

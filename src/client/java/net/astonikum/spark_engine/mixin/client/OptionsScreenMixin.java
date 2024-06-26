@@ -24,7 +24,7 @@ public abstract class OptionsScreenMixin extends Screen {
     @Inject(at = @At("RETURN"), method = "init")
     public void init(CallbackInfo ci) {
         this.addDrawableChild(new IconButtonWidget(this.width / 2 - 180, this.height / 6 + 120 - 6, 20, 20, (button) -> {
-            MinecraftClient.getInstance().setScreen(new ModMenuHub(this, Text.translatable("spark_engine.mod_settings.hub.title")));
+            MinecraftClient.getInstance().setScreen(new ModMenuHub(this, Text.translatable("gui.spark_engine.mod_settings.hub.title")));
         }, ICON_TEXTURE));
     }
 
