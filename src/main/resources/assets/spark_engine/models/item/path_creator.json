@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "spark_engine:item/path_creator_texture",
-		"particle": "item/path_creator_texture"
+		"particle": "spark_engine:item/path_creator_texture"
 	},
 	"elements": [
 		{

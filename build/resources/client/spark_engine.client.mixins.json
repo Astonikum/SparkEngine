@@ -3,7 +3,7 @@
 	"package": "net.astonikum.spark_engine.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"OptionsScreenMixin"
+      "OptionsScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

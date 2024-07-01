@@ -17,7 +17,7 @@ public class IconButtonWidget extends ButtonWidget {
     @Override
     public void renderButton(MatrixStack matrices, int mouseX, int mouseY, float delta) {
         super.renderButton(matrices, mouseX, mouseY, delta);
-        MinecraftClient.getInstance().getTextureManager().bindTexture(icon);
+        //MinecraftClient.getInstance().getTextureManager().bindTexture(icon);
         drawTexture(matrices, this.x + 2, this.y + 2, 0, 0, 16, 16, 16, 16);
     }
 }
